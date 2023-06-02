@@ -26,7 +26,7 @@ describe('Login Functionality', () => {
     cy.get('.oxd-alert-content > .oxd-text').should('be.visible')
   })
 
-  it('password_salah', () => {
+  it('kosong', () => {
     cy.visit('https://opensource-demo.orangehrmlive.com/')
     cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').should('be.visible')
     cy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').should('be.visible')
